@@ -27,6 +27,9 @@
     <ClCompile Include="No. 14681 사분면02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="No. 2739 구구단.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="No. 14681 사분면.cpp">
