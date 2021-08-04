@@ -6,12 +6,11 @@ int main() {
 	int n;
 	cin >> n;
 
-	int i;
 
-	for (i = 1; i <= n; i++) {
 
-		cout << i << '\n';
+	for (; n>0;n-- ) {
+		cout << n << '\n';
 	}
 
-	
+
 }
