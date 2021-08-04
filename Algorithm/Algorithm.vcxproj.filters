@@ -45,6 +45,9 @@
     <ClCompile Include="No. 2438 별찍기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="No. 10871 X보다 작은 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="No. 14681 사분면.cpp">
