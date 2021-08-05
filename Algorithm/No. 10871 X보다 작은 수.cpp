@@ -2,14 +2,23 @@
 #include <iostream>
 using namespace std;
 
+
 int main() {
 
-	int n, x;
-	cin >> n >> x;
+	int N;
+	int X;
+	cin >> N >> X;	// N과 X 입력
 
-	//for로 N번 비교 해주면 되고
+	int arr[N];	// N칸의 배열 생성
 
-	//if 문으로 출력 or 유지 하면 될 것 같다
-
-
+	for (int i = 0; i < N; i++) {
+		cin >> arr[i];		// 배열에 N개의 수를 저장
 	}
+
+	for (int i = 0; i < N; i++) {
+		// i번째 원소가 X보다 작다면 출력
+		if (arr[i] < X) {
+			cout << arr[i] << " ";
+		}
+	}
+}
