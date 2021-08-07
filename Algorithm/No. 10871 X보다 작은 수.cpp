@@ -11,7 +11,7 @@ int main() {
     for (int i = 1; i <= a; i++) {
         cin >> c;
         if (c < b) {
-            cout << c << " ";
+            cout << c << "  ";
         }
 
     }
