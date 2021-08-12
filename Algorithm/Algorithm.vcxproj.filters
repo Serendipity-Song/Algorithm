@@ -54,6 +54,9 @@
     <ClCompile Include="No. 1110 앞뒤숫자 더해서 원상태로 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="No. 14681 사분면.cpp">
