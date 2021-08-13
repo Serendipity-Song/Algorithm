@@ -10,7 +10,7 @@ int main() {
 	int secondnum;//둘째 자리 
 	int sumnum; // 첫쨰자리 + 둘쨰자리 
 	int result = 0; // 사이클을 위한 결과 
-	int cnt = 0; // 사이클 횟수 
+	int cnt = 0; // 사이클 횟수 알아보기
 	cin >> num; // 숫자받기 
 	if (num < 10)//10보다 작으면 
 		num *= 10; result = num;
