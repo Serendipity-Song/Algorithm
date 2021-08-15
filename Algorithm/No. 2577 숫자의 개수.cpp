@@ -3,20 +3,24 @@
 using namespace std;
 
 
-int A;
-int B;
-int C;
-
-int N[];
-int Result;
+int A, B, C;
+int N[10] = {}; // 문자열 초기화
 
 int main() {
 
-	cin >> A;
-	cin >> B;
-	cin >> C;
+	cin >> A >> B >> C;
+	int Result = A * B * C;
 
-	Result = A * B * C;
-	cout << Result;
+
+	while (Result != 0) {
+
+        N[Result % 10] += 1;
+        Result /= 10;
+    }
+
+    //출력. 
+    for (int i = 0; i < 10; i++) {
+        cout << N [i] << endl;
+    }
 
 }
