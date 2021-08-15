@@ -60,6 +60,9 @@
     <ClCompile Include="No. 10818 최대최소 .cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="No. 2577 숫자의 개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="No. 14681 사분면.cpp">
