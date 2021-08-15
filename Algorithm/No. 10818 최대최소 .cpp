@@ -22,10 +22,7 @@ int main() {
 		//입력값이 mmin보다 작으면 mmin으로 설정
 		//입력값이 mmax보다 크면 mmax으로 설정
 	}
-
 	cout << mmin << " " << mmax;
-
-
 }
 
 
