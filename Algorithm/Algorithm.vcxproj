@@ -148,7 +148,7 @@
     <ClCompile Include="No. 10952 A+B .cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="No. 10952 최대최소 .cpp" />
+    <ClCompile Include="No. 10818 최대최소 .cpp" />
     <ClCompile Include="No. 1110 앞뒤숫자 더해서 원상태로 만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

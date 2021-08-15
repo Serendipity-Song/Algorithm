@@ -57,7 +57,7 @@
     <ClCompile Include="소스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="No. 10952 최대최소 .cpp">
+    <ClCompile Include="No. 10818 최대최소 .cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
