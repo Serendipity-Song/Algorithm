@@ -63,7 +63,7 @@
     <ClCompile Include="No. 2577 숫자의 개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="No. 15596 정수 N개의 합.cpp">
+    <ClCompile Include="No. 4673 셀프넘버.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
