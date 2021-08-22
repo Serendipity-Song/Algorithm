@@ -1,18 +1,29 @@
-
-
 #include <iostream>
 using namespace std;
 
 
+
 int main() {
 
-	int x;
-	cin >> x;
+	int n;
+	cin >> n;
+	
+	int i;
 
-	if (x % 4 == 0 && x % 400 == 0)
-		cout << "1" << endl;
-	else if (x % 4 == 0 && x % 100 != 0)
-		cout << "1" << endl;
-	else
-		cout << "0" << endl;
+		for (i=1;i<=n;i++) {
+			//숫자가 증가한다. 
+
+			
+		
+			
+			for (int j=1;j<i+1;j++) {
+				//한줄 안에 출력하는 별들--몇번조건
+				cout << "*";
+			}
+
+			//줄바꿈
+			cout<< "" << endl;
+
+		}
+
 }
