@@ -1,29 +1,24 @@
+
+
 #include <iostream>
 using namespace std;
 
 
+int main()
+{
+    int n; //문자의 갯수
 
-int main() {
+    char ch; //제시하는 합할 숫자들
+    int total = 0; //총합
 
-	int n;
-	cin >> n;
-	
-	int i;
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        cin >> ch;
+        total += ch - '0';
+     }
 
-		for (i=1;i<=n;i++) {
-			//숫자가 증가한다. 
+    cout << total << endl;
 
-			
-		
-			
-			for (int j=1;j<i+1;j++) {
-				//한줄 안에 출력하는 별들--몇번조건
-				cout << "*";
-			}
-
-			//줄바꿈
-			cout<< "" << endl;
-
-		}
-
+    return 0;
 }
+
