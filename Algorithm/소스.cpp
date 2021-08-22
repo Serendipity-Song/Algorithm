@@ -1,23 +1,30 @@
 
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 
 int main()
 {
-    int n; //문자의 갯수
+    int n;
+    cin >> n; //단어의 갯수
 
-    char ch; //제시하는 합할 숫자들
-    int total = 0; //총합
+    int cnt = 0;
 
-    cin >> n;
     for (int i = 0; i < n; i++) {
-        cin >> ch;
-        total += ch - '0';
-     }
+        char word[100];
+        char word;
+        cin >> word;
+        //같은 문자들이 붙어있다
+            //해당 문자의 총 갯수가 연속수와 같다
+            if (word[i].search== rfind(s)- find(s ) {
 
-    cout << total << endl;
+                cnt++;
+            }
+    }
+
+    cout << cnt << endl;
 
     return 0;
 }

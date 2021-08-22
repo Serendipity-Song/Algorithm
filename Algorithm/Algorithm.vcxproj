@@ -160,6 +160,7 @@
     <ClCompile Include="No. 11654 아스키코드 .cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="No. 1316 그룹단어 .cpp" />
     <ClCompile Include="No. 14681 사분면02.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

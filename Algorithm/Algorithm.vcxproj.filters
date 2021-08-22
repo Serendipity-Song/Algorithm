@@ -72,6 +72,9 @@
     <ClCompile Include="No. 11654 아스키코드 .cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="No. 1316 그룹단어 .cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="No. 14681 사분면.cpp">
