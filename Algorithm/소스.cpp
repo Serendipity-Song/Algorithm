@@ -1,21 +1,16 @@
-//c++에서 시간 줄이기
+
 #include <iostream>
 using namespace std;
 
+int a = 0, b = 0, c = 0;
 
 int main() {
+	cin >> a >> b;
 
-	cin.tie(NULL);
-	ios_base::sync_with_stdio(false);
-
-	int T;
-	cin >> T;
-
-		for (; T > 0; T--){
-	
-			int a,b;
-			cin >> a >> b;
-
-			cout << a + b << "\n";
+	for (int i = 1; i <= a; i++) {
+		cin >> c;
+		if (c < b) {
+			cout << c << " ";
 		}
+	}
 }
